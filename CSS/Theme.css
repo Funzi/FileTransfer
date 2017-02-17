@@ -1,0 +1,30 @@
+﻿body {
+    font-family: Verdana, Helvetica, sans-serif;
+    font-size: 11px;
+    height: 100%;
+    min-height: 100%;
+}
+
+html {
+    height: 100%;
+    min-height: 100%;
+    width: 100%; 
+    margin: 0px; 
+    padding: 0px;
+}
+
+#dvProgressContainer {
+    border-left: solid 1px #CFCFCF;
+    border-right: solid 1px #CFCFCF;
+    width: 300px;
+    height: 12px;
+    background-image: url(../Images/Progressbar_Wrapper.gif);
+}
+
+#dvProgress {
+    background-image: url(../Images/Progressbar_Content.gif);
+    height: 100%;
+    width: 0;
+    max-width: 300px;
+}
+
